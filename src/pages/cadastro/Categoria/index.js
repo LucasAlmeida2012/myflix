@@ -8,6 +8,14 @@ function CadastroCategoria(){
         <MasterPage>
             <h1>Cadastro de Categoria</h1>
 
+            <form>
+                <label> Nome
+                    <input type="text" />
+                </label>
+                
+                <button>Cadastrar</button>
+             </form>
+
             <Button as={Link} to="/cadastro/video">
                 Add video
             </Button>

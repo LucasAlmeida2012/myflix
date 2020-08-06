@@ -32,3 +32,5 @@ a {
   flex-direction: column;
 
 }
+
+button, input, textarea{color: var(--black) }
